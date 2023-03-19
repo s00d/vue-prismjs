@@ -1,0 +1,64 @@
+{
+  "name": "vue-prismjs",
+  "version": "1.0.0",
+  "description": "Vue component for formatting code using Prism.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "dev": "webpack serve --mode development --open",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "docs": "npm run build && cp index.html docs/index.html && cp -R dist/* docs/",
+    "storybook": "start-storybook -p 6006"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-username/vue-prismjs.git"
+  },
+  "keywords": [
+    "vue",
+    "prismjs",
+    "component",
+    "syntax highlighting",
+    "npm",
+    "webpack",
+    "babel"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/your-username/vue-prismjs/issues"
+  },
+  "homepage": "https://github.com/your-username/vue-prismjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-transform-runtime": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/head": "^1.1.23",
+    "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-prismjs": "^2.1.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^27.4.7",
+    "prismjs": "^1.25.0",
+    "style-loader": "^3.3.2",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "vue-demi": "^0.13.11"
+  }
+}
