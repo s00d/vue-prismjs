@@ -7,7 +7,7 @@ Vue component for formatting code using Prism.js
 ## Installation
 
 ```
-npm install vue-prism-js
+npm install vue-prismjs-next
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ In your component:
 </template>
 
 <script>
-import Prismjs from 'vue-prism-js'
+import Prismjs from 'vue-prismjs-next'
 
 export default {
   components: {
