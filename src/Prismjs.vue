@@ -1,3 +1,10 @@
+<template>
+  <div class="prismjs">
+    <button class="prismjs-copy" @click="copyCodeToClipboard">Copy</button>
+    <pre class="line-numbers" :class="'language-'+language"><code :class="language">{{ highlightedCode }}</code></pre>
+  </div>
+</template>
+
 <script>
 import { defineComponent, ref, watch } from 'vue-demi'
 import Prism from 'prismjs'
@@ -33,14 +40,6 @@ export default defineComponent({
       highlightedCode,
       copyCodeToClipboard
     }
-  },
-  render(h) {
-    return h('div', { class: 'prismjs' }, [
-      h('button', { class: 'prismjs-copy', on: { click: this.copyCodeToClipboard } }, 'Copy'),
-      h('pre', { class: 'line-numbers language-' + this.language }, [
-        h('code', { class: this.language, domProps: { innerHTML: this.highlightedCode } })
-      ])
-    ])
   }
 })
 </script>
