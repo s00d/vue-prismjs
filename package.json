@@ -1,5 +1,5 @@
 {
-  "name": "vue-prismjs",
+  "name": "vue-prism-js",
   "version": "1.0.0",
   "description": "Vue component for formatting code using Prism.js",
   "main": "dist/index.js",

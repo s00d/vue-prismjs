@@ -1,4 +1,4 @@
-# vue-prismjs
+# vue-prism-js
 
 ![mobile image](https://raw.githubusercontent.com/s00d/vue-prismjs/main/img/main.png)
 
@@ -7,7 +7,7 @@ Vue component for formatting code using Prism.js
 ## Installation
 
 ```
-npm install vue-prismjs
+npm install vue-prism-js
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ In your component:
 </template>
 
 <script>
-import Prismjs from 'vue-prismjs'
+import Prismjs from 'vue-prism-js'
 
 export default {
   components: {
