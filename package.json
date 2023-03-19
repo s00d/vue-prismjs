@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/vue-prismjs.git"
+    "url": "git+https://github.com/s00d/vue-prismjs.git"
   },
   "keywords": [
     "vue",
@@ -33,9 +33,9 @@
   "author": "Your Name",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/your-username/vue-prismjs/issues"
+    "url": "https://github.com/s00d/vue-prismjs/issues"
   },
-  "homepage": "https://github.com/your-username/vue-prismjs#readme",
+  "homepage": "https://github.com/s00d/vue-prismjs#readme",
   "devDependencies": {
     "@babel/core": "^7.16.12",
     "@babel/plugin-transform-runtime": "^7.16.8",

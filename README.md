@@ -1,5 +1,7 @@
 # vue-prismjs
 
+![mobile image](https://raw.githubusercontent.com/s00d/vue-prismjs/main/img/img.png)
+
 Vue component for formatting code using Prism.js
 
 ## Installation
@@ -33,17 +35,18 @@ export default {
 In your `main.js` file:
 
 ```js
-import 'vue-prismjs/dist/vue-prismjs.css'
+import Prismjs from './Prismjs.vue';
 
+// ...
+
+app.component('Prismjs', Prismjs)
 // ...
 ```
 
 ## Props
 
 - `language` (required): The language to use for syntax highlighting. You can find a list of supported languages [here](https://prismjs.com/#supported-languages).
-- `plugins`: An array of Prism.js plugins to use. You can find a list of available plugins [here](https://prismjs.com/plugins/).
-- `line-numbers`: If set to `true`, line numbers will be displayed.
-- `copy-button`: If set to `true`, a button to copy the code block to the clipboard will be displayed.
+- `code` (required): Code string.
 
 ## Supported Vue Versions
 
