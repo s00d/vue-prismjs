@@ -1,6 +1,6 @@
 # vue-prismjs
 
-![mobile image](https://raw.githubusercontent.com/s00d/vue-prismjs/main/img/img.png)
+![mobile image](https://raw.githubusercontent.com/s00d/vue-prismjs/main/img/main.png)
 
 Vue component for formatting code using Prism.js
 
