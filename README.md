@@ -1,4 +1,4 @@
-# vue-prism-js
+# vue-prismjs-next
 
 ![mobile image](https://raw.githubusercontent.com/s00d/vue-prismjs/main/img/main.png)
 
